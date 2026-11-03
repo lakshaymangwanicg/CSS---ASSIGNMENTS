@@ -1,0 +1,33 @@
+.team {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  width: 1400px;
+  gap: 20px;
+  background-color: red;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.member {
+  min-width: 400px;
+  padding: 20px;
+  border: 1px solid #999;
+  background: #f5f5f5;
+}
+
+.member:nth-child(3) {
+  order: 4;
+}
+
+.member:nth-child(1) {
+  order: 0;
+}
+
+.member:nth-child(2) {
+  order: 1;
+}
+
+.member:nth-child(4) {
+  order: 2;
+}

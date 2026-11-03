@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(120, 109, 109);
+}
+.main{
+    background-color: white;
+}
+
+.head{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    gap: 60%;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.side{
+    width:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.image{
+    background-image: url(kw-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vw;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    line-height: 5px;
+}
+
+.book-section {
+    width: 100%;
+}
+
+h1 {
+    margin-left: 20px;
+    margin-bottom: 6px;
+    color: #222;
+}
+
+.book-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.book-card {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.book-card img {
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 7px;
+    display: block;
+}
+
+.book-card h3 {
+    font-size: 8px;
+    font-weight: bold;
+    color: #111;
+}
+
+.author {
+    font-size: 20px;
+    color: #888;
+}
+
+.book-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 80px;
+}
+
+.price {
+    font-size: 20px;
+}
+
+button {
+    background-color: #6195ff;
+    color: white;
+    height: 30px;
+    width: 300px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
