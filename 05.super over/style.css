@@ -9,7 +9,7 @@ body {
 }
 
 
-.stadium {
+.stand {
     width: 100%;
     min-height: 620px;
     height: 100vh;
@@ -19,7 +19,7 @@ body {
     align-items: center;
     position: relative;
 }
-.stadium::before {
+.stand::before {
     content: "";
     position: absolute;
     width: 130%;
@@ -48,7 +48,7 @@ body {
     font-weight: 800;
 }
 
-.score-container {
+.score {
     width: 70%;
     display: flex;
     justify-content: space-between;
@@ -124,10 +124,10 @@ body {
     align-items: center;
 }
 
-.edit {
+.change {
     background: orange;
 }
 
-.reset {
+.renew {
     background: red;
 }
